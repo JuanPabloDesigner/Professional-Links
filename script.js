@@ -21,6 +21,7 @@ function toggleMode() {
     hero.removeAttribute("src", "./assets/hero-bg.svg");
     hero.removeAttribute("alt", "Flying Astrounaut Animation");
   }
+
   /*
   const frameHeight = 102;
   const frames = 15;
