@@ -35,9 +35,7 @@
   }
 
   #hero-bg img {
-    position: absolute;
-    width: 400px;
-    right: 130px;
+    display: none;
   }
   
   #container {
@@ -187,6 +185,13 @@
   
     .space {
       --bg-url: url(./assets/bg-desktop-space.png);
+    }
+
+    #hero-bg img {
+      display: flex;
+      position: absolute;
+      width: 400px;
+      right: 130px;
     }
   }
   
