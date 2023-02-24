@@ -34,7 +34,7 @@ This project was developed with the following technologies:
 
 This Project is a link aggregator that organizes all my professional links and it's personalized with HTML, CSS, and JavaScript to train my coding skills.
 
-- [Access the finished project. Online.](https://juanpablodesigner.github.io/My_YT_Playlists/)
+- [Access the finished project. Online.](https://juanpablodesigner.github.io/Professional-Links/)
 
 ## :memo: Licence
 

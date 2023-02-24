@@ -6,7 +6,7 @@
   
   :root {
     --text-color: rgb(0,48,70);
-    --bg-url: url(./assets/bg-mobile-space.jpg);
+    --bg-url: rgb(173,217,231);
     --stroke-color: rgba(0, 0, 0, 0.5);
     --surface-color: rgba(0, 0, 0, 0.05);
     --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -16,7 +16,7 @@
   
   .space {
     --text-color: white;
-    --bg-url: rgb(173,217,231);
+    --bg-url: url(./assets/bg-mobile-space.jpg);
     --stroke-color: rgba(255, 255, 255, 0.5);
     --surface-color: rgba(255, 255, 255, 0.05);
     --surface-color-hover: rgba(0, 0, 0, 0.02);
