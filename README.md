@@ -2,7 +2,7 @@
 
 <p align="center">
 All my professional links are organized and styled in one link. <br/>
-You can see the website by <a href="https://juanpablodesigner.github.io/My_YT_Playlists/">clicking here.</a>
+You can see the website by <a href="https://juanpablodesigner.github.io/Professional-Links/" target="_blank">clicking here.</a>
 </p>
 
 <p align="center">
