@@ -146,6 +146,15 @@
     background: var(--surface-color-hover);
     border: 1.5px solid var(--text-color);
   }
+
+  ul li a i {
+    font-size: 28px;
+    margin-left: 2px;
+  }
+  
+  ul li a img {
+    padding: 0px 2px 0px;
+  }
   
   /* social links */
   #social-links {

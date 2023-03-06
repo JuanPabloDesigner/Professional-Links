@@ -22,6 +22,56 @@ function toggleMode() {
     hero.removeAttribute("alt", "Flying Astrounaut Animation");
   }
 
+  const pdf = document.querySelector("#pdf img");
+  if (html.classList.contains("space")) {
+    pdf.setAttribute("src", "./assets/pdf-icon-space.svg");
+    pdf.setAttribute("alt", "PDF Icon");
+  }
+  else {
+    pdf.setAttribute("src", "./assets/pdf-icon.svg");
+    pdf.setAttribute("alt", "PDF Icon");
+  }
+
+  const html5 = document.querySelector("#html5");
+  if (html.classList.contains("space")) {
+    html5.setAttribute("src", "./assets/html5-icon-space.svg");
+    html5.setAttribute("alt", "HTML5 Icon");
+  }
+  else {
+    html5.setAttribute("src", "./assets/html5-icon.svg");
+    html5.setAttribute("alt", "HTML5 Icon");
+  }
+
+  const css3 = document.querySelector("#css3");
+  if (html.classList.contains("space")) {
+    css3.setAttribute("src", "./assets/css3-icon-space.svg");
+    css3.setAttribute("alt", "CSS3 Icon");
+  }
+  else {
+    css3.setAttribute("src", "./assets/css3-icon.svg");
+    css3.setAttribute("alt", "CSS3 Icon");
+  }
+
+  const react = document.querySelector("#react img");
+  if (html.classList.contains("space")) {
+    react.setAttribute("src", "./assets/react-icon-space.svg");
+    react.setAttribute("alt", "React Icon");
+  }
+  else {
+    react.setAttribute("src", "./assets/react-icon.svg");
+    react.setAttribute("alt", "React Icon");
+  }
+
+  const notion = document.querySelector("#notion img");
+  if (html.classList.contains("space")) {
+    notion.setAttribute("src", "./assets/notion-icon-space.svg");
+    notion.setAttribute("alt", "Notion Icon");
+  }
+  else {
+    notion.setAttribute("src", "./assets/notion-icon.svg");
+    notion.setAttribute("alt", "Notion Icon");
+  }
+
   /*
   const frameHeight = 102;
   const frames = 15;

@@ -29,6 +29,7 @@ This project was developed with the following technologies:
 - JavaScript
 - Git & Github
 - Figma
+- <a target="_blank" href="https://fontawesome.com/icons">Font Awesome</a> & <a target="_blank" href="https://icons8.com">Icons8</a>
 
 ## 💻 Project
 
