@@ -32,24 +32,14 @@ function toggleMode() {
     pdf.setAttribute("alt", "PDF Icon");
   }
 
-  const html5 = document.querySelector("#html5");
+  const html5css3 = document.querySelector("#html5css3 img");
   if (html.classList.contains("space")) {
-    html5.setAttribute("src", "./assets/html5-icon-space.svg");
-    html5.setAttribute("alt", "HTML5 Icon");
+    html5css3.setAttribute("src", "./assets/html5&css3-icon-space.svg");
+    html5css3.setAttribute("alt", "HTML5 & CSS3 Icon");
   }
   else {
-    html5.setAttribute("src", "./assets/html5-icon.svg");
-    html5.setAttribute("alt", "HTML5 Icon");
-  }
-
-  const css3 = document.querySelector("#css3");
-  if (html.classList.contains("space")) {
-    css3.setAttribute("src", "./assets/css3-icon-space.svg");
-    css3.setAttribute("alt", "CSS3 Icon");
-  }
-  else {
-    css3.setAttribute("src", "./assets/css3-icon.svg");
-    css3.setAttribute("alt", "CSS3 Icon");
+    html5css3.setAttribute("src", "./assets/html5&css3-icon.svg");
+    html5css3.setAttribute("alt", "HTML5 & CSS3 Icon");
   }
 
   const react = document.querySelector("#react img");
@@ -72,7 +62,34 @@ function toggleMode() {
     notion.setAttribute("alt", "Notion Icon");
   }
 
-  /*
+}
+
+
+
+/*  HTML5 Icon & CSS3 Icon
+
+  const html5 = document.querySelector("#html5");
+  if (html.classList.contains("space")) {
+    html5.setAttribute("src", "./assets/html5-icon-space.svg");
+    html5.setAttribute("alt", "HTML5 Icon");
+  }
+  else {
+    html5.setAttribute("src", "./assets/html5-icon.svg");
+    html5.setAttribute("alt", "HTML5 Icon");
+  }
+
+  const css3 = document.querySelector("#css3");
+  if (html.classList.contains("space")) {
+    css3.setAttribute("src", "./assets/css3-icon-space.svg");
+    css3.setAttribute("alt", "CSS3 Icon");
+  }
+  else {
+    css3.setAttribute("src", "./assets/css3-icon.svg");
+    css3.setAttribute("alt", "CSS3 Icon");
+  }
+
+    Hero Image Animation
+
   const frameHeight = 102;
   const frames = 15;
   const div = document.getElementById("hero-bg").children;
@@ -81,5 +98,6 @@ function toggleMode() {
       const frameOffset = (++frame % frames) * -frameHeight;
       div.style.backgroundPosition = "0px " + frameOffset + "px";
   }, 100);
-  */
-}
+
+
+*/
