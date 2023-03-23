@@ -214,6 +214,56 @@ footer {
   .space {
     --bg-url: url(./assets/bg-desktop-space.png);
   }
+}
+
+@media (min-width: 1130px) {
+  :root {
+    --bg-url: rgb(173,217,231);
+  }
+
+  .space {
+    --bg-url: url(./assets/bg-desktop-space.png);
+  }
+
+  #hero-bg img {
+    display: flex;
+    position: absolute;
+    margin-top: 100px;
+    width: 300px;
+    right: 20px;
+    -webkit-animation: updown 3s linear infinite;
+    animation: updown 3s linear infinite;
+  }
+}
+
+@media (min-width: 1350px) {
+  :root {
+    --bg-url: rgb(173,217,231);
+  }
+
+  .space {
+    --bg-url: url(./assets/bg-desktop-space.png);
+  }
+
+  #hero-bg img {
+    display: flex;
+    position: absolute;
+    margin-top: 100px;
+    width: 300px;
+    right: 97.5px;
+    -webkit-animation: updown 3s linear infinite;
+    animation: updown 3s linear infinite;
+  }
+}
+
+@media (min-width: 1660px) {
+  :root {
+    --bg-url: rgb(173,217,231);
+  }
+
+  .space {
+    --bg-url: url(./assets/bg-desktop-space.png);
+  }
 
   #hero-bg img {
     display: flex;
